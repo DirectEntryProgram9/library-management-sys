@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: darkblue;
+  display: none;
+  padding-top: 60px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  background-color: transparent;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ion-icon {
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 10rem;
+}
+
+a {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  background-color: lightblue;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover .content {
+  display: block;
+}
+
+a:hover {
+  background-color: rgb(3, 130, 180);
+  height: 450px;
+}
+
+a:hover ion-icon {
+  background-color: black;
+  fill: white;
+}
+
+a:hover div {
+  color: white;
+}
+
+a > div {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+[name=people] {
+  fill: darkred;
+}
+
+[name=book] {
+  fill: darkgreen;
+}
+
+[name=filing] {
+  fill: darkblue;
+}
+
+[name=return-left] {
+  fill: darkorange;
+}
+
+/*# sourceMappingURL=style.css.map */
