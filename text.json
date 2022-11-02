@@ -1,0 +1,20 @@
+[
+    {
+        "id": "M001",
+        "name": "Kasun Nuwan",
+        "address": "#523, Galle road, Panadura",
+        "contact": "077-1236596"
+    },
+    {
+        "id": "M002",
+        "name": "Pubudu Janith",
+        "address": "#280, Galle road, Moratuwa",
+        "contact": "070-7845123"
+    },
+    {
+        "id": "M003",
+        "name": "Nimal Kamal",
+        "address": "#450, Galle road, Galle",
+        "contact": "071-7896123"
+    }
+]
